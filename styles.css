@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Màu nền trắng */
+    color: #000; /* Màu chữ chính */
+}
+
+h1 {
+    color: #000000; /* Màu đen cho tiêu đề */
+}
+
+h2 {
+    background-color: #AFC8E0; /* Màu nền xanh nhạt cho tiêu đề phần */
+    padding: 5px;
+    color: #3e89df; /* Màu đen cho chữ tiêu đề */
+}
+
+img {
+    float: right;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+table {
+    width: 70%; /* Bảng nhỏ hơn */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: auto;
+    font-size: 14px;
+    color: #000000; /* Màu chữ đen trong bảng */
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    
+    color: #000000; /* Màu đen cho chữ tiêu đề bảng */
+}
+table tr:nth-child(3) {
+    background-color: #D3D3D3; /* Màu nền xám */
+    color: #559fe8; /* Màu chữ xanh */
+}
+table tr:nth-child(3) td:nth-child(1) {
+    color: #3b06eb; /* Màu chữ xanh */
+}
+table tr:nth-child(4) td:nth-child(1) {
+    color: #3b06eb; /* Màu chữ xanh */
+}
+table tr:nth-child(5) td:nth-child(1) {
+    color: #3b06eb; /* Màu chữ xanh */
+}
+table tr:nth-child(7) td:nth-child(1) {
+    color: #559fe8; /* Màu chữ xanh */
+}
+table tr:nth-child(8) td:nth-child(1) {
+    color: #559fe8; /* Màu chữ xanh */
+}
+table tr:nth-child(5) {
+    background-color: #D3D3D3; /* Màu nền xám */
+}
+table tr:nth-child(7) {
+    background-color: #D3D3D3; /* Màu nền xám */
+}
+.center-text {
+    text-align: center;
+    background-color: #FFFFFF; /* Màu nền trắng */
+    font-weight: bold;
+    color: #000000; /* Màu chữ đen */
+}
+
+.content {
+    width: 60%;
+    margin: auto;
+}
+
+p {
+    color: #000000; /* Màu đen cho các đoạn văn */
+}
+
+b {
+    color: #3988d6; /* Màu xanh cho chữ in đậm (như trong hình) */
+}
+
+.form-section {
+    margin-top: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    color: #000000; /* Màu đen cho nhãn form */
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000000; /* Đường viền đen */
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #AFC8E0; /* Màu nền nút submit */
+    border: none;
+    cursor: pointer;
+    color: #000000; /* Màu chữ đen */
+}
+
+input[type="submit"]:hover {
+    background-color: #AFC8E0; /* Màu giữ nguyên khi rê chuột */
+}
