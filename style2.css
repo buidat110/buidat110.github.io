@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5C544E;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #6CA9E8;
+    font-size: 3.5em;
+}
+
+.highlight {
+    color: #FFEB3B;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid #B2B2B2;
+}
+
+h2 {
+    color: #6CA9E8;
+    margin-top: 20px;
+}
+
+ul, ol {
+    line-height: 1.6;
+}
+
+a {
+    color: #d33232;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mood {
+    display: flex;
+    justify-content: space-between; /* Tạo khoảng cách giữa các phần tử */
+    margin-top: 20px;
+}
+.mood-item {
+    display: flex;
+    align-items: flex-end; /* Căn văn bản với cạnh dưới của ảnh */
+    margin: 0 20px; /* Tạo khoảng cách giữa các mục */
+}
+.mood-item p {
+    font-size: 1.2em;
+    color: white;
+    margin: 0;
+}
+
+.mood-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Đảm bảo ảnh không bị biến dạng */
+    border-radius: 10px;
+    margin-left: 10px; /* Tạo khoảng cách giữa chữ và hình ảnh */
+}
+
+
+footer {
+    margin-top: 20px;
+}
